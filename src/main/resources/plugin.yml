@@ -1,0 +1,10 @@
+name: Hypixel
+main: Hypixel
+author: BlueSnapple
+version: 1.0
+description: Hypixel test plugin
+commands:
+  test:
+    usage: /test
+    aliases: t
+    description: It's just a test!
