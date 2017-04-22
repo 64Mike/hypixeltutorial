@@ -23,7 +23,7 @@ public class GetPlayer{
             if (failCause != null) {
                 failCause.printStackTrace();
             } else {
-                player.sendMessage(result.getPlayer().get("displayname") + "");
+                player.sendMessage(result.getPlayer().get("displayname").getAsString());
             }
             HypixelAPI.getInstance().finish();
         });
